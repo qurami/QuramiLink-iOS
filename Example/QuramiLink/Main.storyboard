@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="QMIViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Office Link" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BjT-s1-qU4">
+                                <rect key="frame" x="259" y="38" width="83" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="your office link here" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xef-6r-YYm">
+                                <rect key="frame" x="20" y="67" width="560" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="whP-gf-Uak" id="bi3-W2-fqD"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfJ-YB-1mC">
+                                <rect key="frame" x="243" y="105" width="115" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Open Office Link"/>
+                                <connections>
+                                    <action selector="officeLinkButtonPressed:" destination="whP-gf-Uak" eventType="touchUpInside" id="Bxf-fx-UVj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="BjT-s1-qU4" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="18" id="0ky-Iv-bwe"/>
+                            <constraint firstItem="kfJ-YB-1mC" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="0sZ-lt-ORa"/>
+                            <constraint firstItem="Xef-6r-YYm" firstAttribute="top" secondItem="BjT-s1-qU4" secondAttribute="bottom" constant="8" id="B8b-mf-4Ya"/>
+                            <constraint firstAttribute="trailing" secondItem="Xef-6r-YYm" secondAttribute="trailing" constant="20" id="SYM-en-CSN"/>
+                            <constraint firstItem="Xef-6r-YYm" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="20" id="mF4-U9-WmL"/>
+                            <constraint firstItem="BjT-s1-qU4" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="thh-KK-Zzg"/>
+                            <constraint firstItem="kfJ-YB-1mC" firstAttribute="top" secondItem="Xef-6r-YYm" secondAttribute="bottom" constant="8" id="wv0-3K-gQQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="Xef-6r-YYm" id="wgx-0X-DKY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="414"/>
+        </scene>
+    </scenes>
+</document>

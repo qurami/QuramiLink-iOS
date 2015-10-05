@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24B232CC54DE4E5CC7A621014D2D189C /* Pods-QuramiLink_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CEE574F0204C6FA8AA1DBA6E9597B3 /* Pods-QuramiLink_Example-dummy.m */; };
+		36FDB7A9F09806E52433D34936331233 /* QuramiLink.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6782A41CED1D66A163552BBBE3AECBEC /* QuramiLink.bundle */; };
+		46D26E6BA234054286134217D0B2688F /* Pods-QuramiLink_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CECB1C2752D388DAE0BB24CB95DA03 /* Pods-QuramiLink_Tests-dummy.m */; };
+		59602A3C24FED179CFEA16393AAA9E5E /* QuramiLink-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4977A16632FB8A8661D5A48054DCAE1 /* QuramiLink-dummy.m */; };
+		6B3DF3FE1105674244A46F3F3904B92F /* QuramiLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 629F3036B22CA7E67FE71B5E557074C9 /* QuramiLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83DE65046A14ECC1C49597D7EF3C47BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CD423B8098B7B6902FB7A93BBEE05E /* Foundation.framework */; };
+		8A4FD08B0ACD6425C292C0BA37C7D87C /* QuramiLink-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBC5ECCAEDAB8F794FD0965B253F177 /* QuramiLink-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B1D886DF1990A85E2836E9749B935D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CD423B8098B7B6902FB7A93BBEE05E /* Foundation.framework */; };
+		A069B613C73D0E0DD71EDDC30D25102C /* Pods-QuramiLink_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 629244C3F247650D6C9927B3281CE221 /* Pods-QuramiLink_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3E2021569C789DED72B4BAC899F383F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5CD423B8098B7B6902FB7A93BBEE05E /* Foundation.framework */; };
+		E85C61DDCD2AB398C3E6F413A0075A04 /* Pods-QuramiLink_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28541A622EB1268B0ACE34E7E0180F0A /* Pods-QuramiLink_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F54A06BA22F240E970EDD566B3D02D7E /* QuramiLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A2A70C9B88594BB55145631E5E9F723 /* QuramiLink.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B513FF6FF40AA2C28C9C6DF205B16B26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95182D0FC896377E91B2BDFB4FA82E36;
+			remoteInfo = "QuramiLink-QuramiLink";
+		};
+		BAA41562F29EC0C8A11C3606CFD3568E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF41368A448BAE89E45D718D6E55992;
+			remoteInfo = QuramiLink;
+		};
+		D0D2C080D8411D85B64B06B5E2D43D62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AF41368A448BAE89E45D718D6E55992;
+			remoteInfo = QuramiLink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		082F61C7ED125CD493C5F14FE81DF242 /* Pods-QuramiLink_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuramiLink_Example-resources.sh"; sourceTree = "<group>"; };
+		12371337C7FC5D4AEA61539AB53E1EAC /* Pods-QuramiLink_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuramiLink_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		16589F4CC7CBA797B1F80E0D9B268281 /* Pods-QuramiLink_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuramiLink_Example.release.xcconfig"; sourceTree = "<group>"; };
+		18CECB1C2752D388DAE0BB24CB95DA03 /* Pods-QuramiLink_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuramiLink_Tests-dummy.m"; sourceTree = "<group>"; };
+		28541A622EB1268B0ACE34E7E0180F0A /* Pods-QuramiLink_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuramiLink_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2E73679DA3F133EA1C37B6A659124676 /* Pods-QuramiLink_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuramiLink_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FF0B95AC7EF1E036E47BB0B902FF992 /* Pods_QuramiLink_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuramiLink_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		629244C3F247650D6C9927B3281CE221 /* Pods-QuramiLink_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QuramiLink_Example-umbrella.h"; sourceTree = "<group>"; };
+		629F3036B22CA7E67FE71B5E557074C9 /* QuramiLink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QuramiLink.h; sourceTree = "<group>"; };
+		6782A41CED1D66A163552BBBE3AECBEC /* QuramiLink.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuramiLink.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AED317B3D434E23F30BED07FFF24F3D /* Pods-QuramiLink_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuramiLink_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6E03AF75C56A7E45C9B1DD116B2448F6 /* Pods-QuramiLink_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuramiLink_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		729E982B5DC9913B16A08136274D005C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A2A70C9B88594BB55145631E5E9F723 /* QuramiLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QuramiLink.m; sourceTree = "<group>"; };
+		7A66D2A3224B64857266C7FCC5BF93CC /* Pods-QuramiLink_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuramiLink_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D26A91B46758DC2B317FC02C21C6790 /* Pods-QuramiLink_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QuramiLink_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		97E080E430095EDDCAFB906D4AF3DA71 /* Pods-QuramiLink_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuramiLink_Tests-resources.sh"; sourceTree = "<group>"; };
+		9DBC5ECCAEDAB8F794FD0965B253F177 /* QuramiLink-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuramiLink-umbrella.h"; sourceTree = "<group>"; };
+		9EF275794B06A1921419232CAB240B94 /* QuramiLink.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QuramiLink.modulemap; sourceTree = "<group>"; };
+		9FA5AB616EEF20D0F51F02D084EE7630 /* Pods_QuramiLink_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuramiLink_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02234648B9B8780A06A85384C428DBD /* QuramiLink-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "QuramiLink-Private.xcconfig"; sourceTree = "<group>"; };
+		AB34D5D3EA8F93BC6F02F3BADBD6011C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFABE4F5578DD7878BA0CFD0200572F /* Pods-QuramiLink_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuramiLink_Example.modulemap"; sourceTree = "<group>"; };
+		AF1D7CE259C37D74D7620B65FEE3E112 /* Pods-QuramiLink_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QuramiLink_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B4977A16632FB8A8661D5A48054DCAE1 /* QuramiLink-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QuramiLink-dummy.m"; sourceTree = "<group>"; };
+		B5CD423B8098B7B6902FB7A93BBEE05E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C856FA1BF58CD8324B92AAB9F737CD8A /* QuramiLink.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QuramiLink.xcconfig; sourceTree = "<group>"; };
+		CA01BDF4975AEE48CC66008B68B2D216 /* Pods-QuramiLink_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QuramiLink_Tests.modulemap"; sourceTree = "<group>"; };
+		D7CEE574F0204C6FA8AA1DBA6E9597B3 /* Pods-QuramiLink_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QuramiLink_Example-dummy.m"; sourceTree = "<group>"; };
+		DB433A40919544D6790377EB124AAD1C /* QuramiLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuramiLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89B324C3CDA92B25B8911A5A736B321 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADBC50A2F19B8F44C7D7D002E3533C8 /* Pods-QuramiLink_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QuramiLink_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FAF21710C616589A44F42C03F423E1DD /* Pods-QuramiLink_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QuramiLink_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF558F180A5EC47028F109542DC377F3 /* QuramiLink-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QuramiLink-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43ADFE4FC666E1776617919BD448A828 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DE65046A14ECC1C49597D7EF3C47BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3ED0A1AFF827D23DAC3226CA5494E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E2021569C789DED72B4BAC899F383F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4ED7CF0EDA74DC9BF5B42B4C2E92731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEFFCAC06A0990E9F13CC9BBBE83F2CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B1D886DF1990A85E2836E9749B935D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CED0BB684FC9EF76DF4B684AB2514E2 /* Pods-QuramiLink_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				729E982B5DC9913B16A08136274D005C /* Info.plist */,
+				CA01BDF4975AEE48CC66008B68B2D216 /* Pods-QuramiLink_Tests.modulemap */,
+				2E73679DA3F133EA1C37B6A659124676 /* Pods-QuramiLink_Tests-acknowledgements.markdown */,
+				7A66D2A3224B64857266C7FCC5BF93CC /* Pods-QuramiLink_Tests-acknowledgements.plist */,
+				18CECB1C2752D388DAE0BB24CB95DA03 /* Pods-QuramiLink_Tests-dummy.m */,
+				12371337C7FC5D4AEA61539AB53E1EAC /* Pods-QuramiLink_Tests-frameworks.sh */,
+				97E080E430095EDDCAFB906D4AF3DA71 /* Pods-QuramiLink_Tests-resources.sh */,
+				28541A622EB1268B0ACE34E7E0180F0A /* Pods-QuramiLink_Tests-umbrella.h */,
+				FAF21710C616589A44F42C03F423E1DD /* Pods-QuramiLink_Tests.debug.xcconfig */,
+				6E03AF75C56A7E45C9B1DD116B2448F6 /* Pods-QuramiLink_Tests.release.xcconfig */,
+			);
+			name = "Pods-QuramiLink_Tests";
+			path = "Target Support Files/Pods-QuramiLink_Tests";
+			sourceTree = "<group>";
+		};
+		2A380C3D0380EF3EE08CEB4E1872B8F6 /* QuramiLink */ = {
+			isa = PBXGroup;
+			children = (
+				AEE08C072031836A228513D76EB9A7C7 /* Pod */,
+				9A56603EC314CF695E9F086715345E28 /* Support Files */,
+			);
+			name = QuramiLink;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2A42BF1E319D525D52A31CC1E98BAAC4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC3B1CB99893A39EB04EC080FBAE54AE /* Pods-QuramiLink_Example */,
+				0CED0BB684FC9EF76DF4B684AB2514E2 /* Pods-QuramiLink_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B5CD423B8098B7B6902FB7A93BBEE05E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60E32FF62EAD3E7DCC1124581F2524D0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A380C3D0380EF3EE08CEB4E1872B8F6 /* QuramiLink */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				60E32FF62EAD3E7DCC1124581F2524D0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				2A42BF1E319D525D52A31CC1E98BAAC4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A56603EC314CF695E9F086715345E28 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB34D5D3EA8F93BC6F02F3BADBD6011C /* Info.plist */,
+				9EF275794B06A1921419232CAB240B94 /* QuramiLink.modulemap */,
+				C856FA1BF58CD8324B92AAB9F737CD8A /* QuramiLink.xcconfig */,
+				A02234648B9B8780A06A85384C428DBD /* QuramiLink-Private.xcconfig */,
+				B4977A16632FB8A8661D5A48054DCAE1 /* QuramiLink-dummy.m */,
+				FF558F180A5EC47028F109542DC377F3 /* QuramiLink-prefix.pch */,
+				9DBC5ECCAEDAB8F794FD0965B253F177 /* QuramiLink-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QuramiLink";
+			sourceTree = "<group>";
+		};
+		A2253B546BE50C4CB9080CED32658F1E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				629F3036B22CA7E67FE71B5E557074C9 /* QuramiLink.h */,
+				7A2A70C9B88594BB55145631E5E9F723 /* QuramiLink.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AEE08C072031836A228513D76EB9A7C7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A2253B546BE50C4CB9080CED32658F1E /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FA5AB616EEF20D0F51F02D084EE7630 /* Pods_QuramiLink_Example.framework */,
+				2FF0B95AC7EF1E036E47BB0B902FF992 /* Pods_QuramiLink_Tests.framework */,
+				6782A41CED1D66A163552BBBE3AECBEC /* QuramiLink.bundle */,
+				DB433A40919544D6790377EB124AAD1C /* QuramiLink.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3B1CB99893A39EB04EC080FBAE54AE /* Pods-QuramiLink_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F89B324C3CDA92B25B8911A5A736B321 /* Info.plist */,
+				ABFABE4F5578DD7878BA0CFD0200572F /* Pods-QuramiLink_Example.modulemap */,
+				7D26A91B46758DC2B317FC02C21C6790 /* Pods-QuramiLink_Example-acknowledgements.markdown */,
+				FADBC50A2F19B8F44C7D7D002E3533C8 /* Pods-QuramiLink_Example-acknowledgements.plist */,
+				D7CEE574F0204C6FA8AA1DBA6E9597B3 /* Pods-QuramiLink_Example-dummy.m */,
+				AF1D7CE259C37D74D7620B65FEE3E112 /* Pods-QuramiLink_Example-frameworks.sh */,
+				082F61C7ED125CD493C5F14FE81DF242 /* Pods-QuramiLink_Example-resources.sh */,
+				629244C3F247650D6C9927B3281CE221 /* Pods-QuramiLink_Example-umbrella.h */,
+				6AED317B3D434E23F30BED07FFF24F3D /* Pods-QuramiLink_Example.debug.xcconfig */,
+				16589F4CC7CBA797B1F80E0D9B268281 /* Pods-QuramiLink_Example.release.xcconfig */,
+			);
+			name = "Pods-QuramiLink_Example";
+			path = "Target Support Files/Pods-QuramiLink_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		90D330D1E77FA96BBCD57298E6A77051 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A069B613C73D0E0DD71EDDC30D25102C /* Pods-QuramiLink_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2D7D96F7CAAF9F9FA6C241FB536F1D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E85C61DDCD2AB398C3E6F413A0075A04 /* Pods-QuramiLink_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E083EF79B99DAD40EC147AC65204F9A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A4FD08B0ACD6425C292C0BA37C7D87C /* QuramiLink-umbrella.h in Headers */,
+				6B3DF3FE1105674244A46F3F3904B92F /* QuramiLink.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		094FF64048FFF5B2363BA50BD8FF27AF /* Pods-QuramiLink_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7C0A64778EC5C5A2D8D7BAAAE625695 /* Build configuration list for PBXNativeTarget "Pods-QuramiLink_Tests" */;
+			buildPhases = (
+				F793011B3BDD70A9ED5959E7251AF5BB /* Sources */,
+				E3ED0A1AFF827D23DAC3226CA5494E10 /* Frameworks */,
+				AE2D7D96F7CAAF9F9FA6C241FB536F1D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5B289B71D42C5C2C2A1FB207E03EE29 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuramiLink_Tests";
+			productName = "Pods-QuramiLink_Tests";
+			productReference = 2FF0B95AC7EF1E036E47BB0B902FF992 /* Pods_QuramiLink_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5AF41368A448BAE89E45D718D6E55992 /* QuramiLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518F295133A39611EE580C42BF6B70E4 /* Build configuration list for PBXNativeTarget "QuramiLink" */;
+			buildPhases = (
+				5575F4FD77563A2DF1B5ECADD1CD859F /* Sources */,
+				FEFFCAC06A0990E9F13CC9BBBE83F2CC /* Frameworks */,
+				7276EFD55306E460B11D7D068F938804 /* Resources */,
+				E083EF79B99DAD40EC147AC65204F9A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69A3641ACF033D3C04C1268A098E83BB /* PBXTargetDependency */,
+			);
+			name = QuramiLink;
+			productName = QuramiLink;
+			productReference = DB433A40919544D6790377EB124AAD1C /* QuramiLink.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95182D0FC896377E91B2BDFB4FA82E36 /* QuramiLink-QuramiLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4DA3F46EB25BE6F6467B440C8BF7942 /* Build configuration list for PBXNativeTarget "QuramiLink-QuramiLink" */;
+			buildPhases = (
+				C28A0BDFB201021C6B746D23F0577313 /* Sources */,
+				E4ED7CF0EDA74DC9BF5B42B4C2E92731 /* Frameworks */,
+				FE2320461DB694C230DDBD46E018AC8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QuramiLink-QuramiLink";
+			productName = "QuramiLink-QuramiLink";
+			productReference = 6782A41CED1D66A163552BBBE3AECBEC /* QuramiLink.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B3F778BDEE5A0F6DC717FC0E38E3479C /* Pods-QuramiLink_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61FA5394CE788249555C6A09006C790E /* Build configuration list for PBXNativeTarget "Pods-QuramiLink_Example" */;
+			buildPhases = (
+				362AFA4B33A64F15E563A1D7F235EB17 /* Sources */,
+				43ADFE4FC666E1776617919BD448A828 /* Frameworks */,
+				90D330D1E77FA96BBCD57298E6A77051 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC3C8B925C7884302A8D6AD33787BDE1 /* PBXTargetDependency */,
+			);
+			name = "Pods-QuramiLink_Example";
+			productName = "Pods-QuramiLink_Example";
+			productReference = 9FA5AB616EEF20D0F51F02D084EE7630 /* Pods_QuramiLink_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3F778BDEE5A0F6DC717FC0E38E3479C /* Pods-QuramiLink_Example */,
+				094FF64048FFF5B2363BA50BD8FF27AF /* Pods-QuramiLink_Tests */,
+				5AF41368A448BAE89E45D718D6E55992 /* QuramiLink */,
+				95182D0FC896377E91B2BDFB4FA82E36 /* QuramiLink-QuramiLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7276EFD55306E460B11D7D068F938804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36FDB7A9F09806E52433D34936331233 /* QuramiLink.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2320461DB694C230DDBD46E018AC8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		362AFA4B33A64F15E563A1D7F235EB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B232CC54DE4E5CC7A621014D2D189C /* Pods-QuramiLink_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5575F4FD77563A2DF1B5ECADD1CD859F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59602A3C24FED179CFEA16393AAA9E5E /* QuramiLink-dummy.m in Sources */,
+				F54A06BA22F240E970EDD566B3D02D7E /* QuramiLink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28A0BDFB201021C6B746D23F0577313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F793011B3BDD70A9ED5959E7251AF5BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D26E6BA234054286134217D0B2688F /* Pods-QuramiLink_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69A3641ACF033D3C04C1268A098E83BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QuramiLink-QuramiLink";
+			target = 95182D0FC896377E91B2BDFB4FA82E36 /* QuramiLink-QuramiLink */;
+			targetProxy = B513FF6FF40AA2C28C9C6DF205B16B26 /* PBXContainerItemProxy */;
+		};
+		A5B289B71D42C5C2C2A1FB207E03EE29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuramiLink;
+			target = 5AF41368A448BAE89E45D718D6E55992 /* QuramiLink */;
+			targetProxy = BAA41562F29EC0C8A11C3606CFD3568E /* PBXContainerItemProxy */;
+		};
+		EC3C8B925C7884302A8D6AD33787BDE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuramiLink;
+			target = 5AF41368A448BAE89E45D718D6E55992 /* QuramiLink */;
+			targetProxy = D0D2C080D8411D85B64B06B5E2D43D62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06DFA9F00651F1D5B6409861388554F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF21710C616589A44F42C03F423E1DD /* Pods-QuramiLink_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuramiLink_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuramiLink_Tests/Pods-QuramiLink_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QuramiLink_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F9173510FDF118E520878701A97F5BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E03AF75C56A7E45C9B1DD116B2448F6 /* Pods-QuramiLink_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuramiLink_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuramiLink_Tests/Pods-QuramiLink_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QuramiLink_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60AF9204033B5BCAFEE3E1E9116B41BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AED317B3D434E23F30BED07FFF24F3D /* Pods-QuramiLink_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuramiLink_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuramiLink_Example/Pods-QuramiLink_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QuramiLink_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63ACC33219DFF9FD9DE9289C987FA72F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16589F4CC7CBA797B1F80E0D9B268281 /* Pods-QuramiLink_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QuramiLink_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-QuramiLink_Example/Pods-QuramiLink_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QuramiLink_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		684E9AA6F5C8ABEF549827D00CD684B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02234648B9B8780A06A85384C428DBD /* QuramiLink-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = QuramiLink;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		71540A879BF70022383BEEA6CC5BD551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02234648B9B8780A06A85384C428DBD /* QuramiLink-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QuramiLink/QuramiLink-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuramiLink/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuramiLink/QuramiLink.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QuramiLink;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ACD729D253D5EA98E79D9579CDDF9170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02234648B9B8780A06A85384C428DBD /* QuramiLink-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = QuramiLink;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F2A97506841358A9E5412373AAD93305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A02234648B9B8780A06A85384C428DBD /* QuramiLink-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QuramiLink/QuramiLink-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QuramiLink/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QuramiLink/QuramiLink.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = QuramiLink;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518F295133A39611EE580C42BF6B70E4 /* Build configuration list for PBXNativeTarget "QuramiLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71540A879BF70022383BEEA6CC5BD551 /* Debug */,
+				F2A97506841358A9E5412373AAD93305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61FA5394CE788249555C6A09006C790E /* Build configuration list for PBXNativeTarget "Pods-QuramiLink_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60AF9204033B5BCAFEE3E1E9116B41BC /* Debug */,
+				63ACC33219DFF9FD9DE9289C987FA72F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7C0A64778EC5C5A2D8D7BAAAE625695 /* Build configuration list for PBXNativeTarget "Pods-QuramiLink_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06DFA9F00651F1D5B6409861388554F6 /* Debug */,
+				2F9173510FDF118E520878701A97F5BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4DA3F46EB25BE6F6467B440C8BF7942 /* Build configuration list for PBXNativeTarget "QuramiLink-QuramiLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACD729D253D5EA98E79D9579CDDF9170 /* Debug */,
+				684E9AA6F5C8ABEF549827D00CD684B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

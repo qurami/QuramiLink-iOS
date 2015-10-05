@@ -1,0 +1,14 @@
+PODS:
+  - QuramiLink (0.1.0)
+
+DEPENDENCIES:
+  - QuramiLink (from `../`)
+
+EXTERNAL SOURCES:
+  QuramiLink:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QuramiLink: ae5184f02cc5de8f9c4495217bb168fd439be37e
+
+COCOAPODS: 0.38.2
