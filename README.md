@@ -20,6 +20,11 @@ The usage is trivial, simply import `QuramiLink.h` in your implementation file a
 [QuramiLink openQuramiOfficeWithOfficeLink: @"yourOfficeLink"];
 ```
 
+⚠️**IMPORTANT**⚠️    
+If you're currently using **Xcode 7** along with the **iOS 9** sdk, you have to add Qurami to your **whitelisted** apps by adding the key: `quramiapp`   
+to the: `LSApplicationQueriesSchemes` array in your `Info.plist`file.    
+For further infos watch this interesting [wwdc 2015 session](https://developer.apple.com/videos/play/wwdc2015-703/) about privacy in iOS 9.
+
 Browse our sample code for any doubts 😉!
 
 
