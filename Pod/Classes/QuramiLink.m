@@ -9,10 +9,42 @@
 #import "QuramiLink.h"
 
 static NSString *quramiAppBaseUrlString = @"quramiapp://";
+static NSInteger officeLinkLength = 39;
 
 @implementation QuramiLink
 
-+ (void) openQuramiOfficeWithOfficeLink: (NSString *) officeLink{
++ (void) openQuramiOfficeWithOfficeLink: (NSString *) officeLink error: (NSError **) error{
+    
+    
+    if(!officeLink || officeLink.length != officeLinkLength){
+        
+        if(error){
+            
+            NSString *errorDescription;
+            NSInteger errorCode;
+            
+            if(!officeLink || officeLink.length == 0){
+                errorDescription = @"no office link provided.";
+                errorCode = kQuramiLinkNoOfficeLinkError;
+            }
+            else{
+                errorDescription = @"the officeLink provided is malformed.";
+                errorCode = kQuramiLinkMalformedOfficeLinkError;
+            }
+            
+            NSString *domain = @"com.qurami.iPhoneApp.QuramiLinkErrorDomain";
+            NSDictionary *userInfo = @{ NSLocalizedDescriptionKey : errorDescription };
+            
+            *error = [NSError errorWithDomain:domain
+                                                 code: errorCode
+                                             userInfo:userInfo];
+        }
+        else{
+            NSLog(@"QuramiLink Error: the officeLink passed in is nil or invalid, please check the office link again. For any further info contact tech@qurami.com");
+        }
+        
+        return;
+    }
     
     UIApplication *sharedApp = [UIApplication sharedApplication];
     NSURL *quramiBaseUrl = [NSURL URLWithString: quramiAppBaseUrlString];

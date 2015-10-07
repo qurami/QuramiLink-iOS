@@ -8,8 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum QuramiLinkError{
+    kQuramiLinkNoOfficeLinkError = 1001,
+    kQuramiLinkMalformedOfficeLinkError
+}QuramiLinkError;
+
 @interface QuramiLink : NSObject
 
-+ (void) openQuramiOfficeWithOfficeLink: (NSString *) officeLink;
++ (void) openQuramiOfficeWithOfficeLink: (NSString *) officeLink error: (NSError **) error;
 
 @end
