@@ -17,7 +17,13 @@ We will update this class to ensure that any integration with the Qurami iOS cli
 The usage is trivial, simply import `QuramiLink.h` in your implementation file and call:
 
 ```
-[QuramiLink openQuramiOfficeWithOfficeLink: @"yourOfficeLink"];
+NSError *error;
+[QuramiLink openQuramiOfficeWithOfficeLink: @"yourOfficeLink" error: &error];
+
+if(error){
+    //there must be a problem with your officeLink, handle it here!
+}
+
 ```
 
 ⚠️**IMPORTANT**⚠️    
