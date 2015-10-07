@@ -29,11 +29,21 @@
 
 - (IBAction) officeLinkButtonPressed:(id)sender{
     
-    if(_textField.text && [_textField.text length] > 0){
-        [QuramiLink openQuramiOfficeWithOfficeLink: _textField.text];
-    }
-    else{
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Warning" message:@"enter a valid office link" delegate:@"" cancelButtonTitle:@"Ok" otherButtonTitles: nil];
+        NSError *error;
+        
+        [QuramiLink openQuramiOfficeWithOfficeLink: _textField.text error:&error];
+
+    if (error) {
+        
+        NSString *alertBody;
+        if(error.code == kQuramiLinkNoOfficeLinkError){
+            alertBody = @"enter an office link";
+        }
+        else if (error.code == kQuramiLinkMalformedOfficeLinkError){
+            alertBody = @"enter a valid office link";
+        }
+        
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Warning" message: alertBody delegate:@"" cancelButtonTitle:@"Ok" otherButtonTitles: nil];
         [alert show];
     }
     
